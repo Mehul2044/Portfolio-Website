@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehul - Personal Portfolio</title>
+
+    <!--
+      - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/images/my-avatar.jpg" type="image/x-icon">
+
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!--
+  - #MAIN
+-->
+
+<main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+        <div class="sidebar-info">'
+
+            <figure class="avatar-box">
+                <img src="./assets/images/my-avatar.jpg" alt="Mehul Agarwal" width="70">
+            </figure>
+
+            <div class="info-content">
+                <h1 class="name" title="Mehul Agarwal">Mehul Agarwal</h1>
+
+                <p class="title">Software Developer</p>
+            </div>
+
+            <button class="info_more-btn" data-sidebar-btn>
+                <span>Show Contacts</span>
+                <ion-icon name="chevron-down"></ion-icon>
+            </button>
+
+        </div>
+
+        <div class="sidebar-info_more">
+
+            <div class="separator"></div>
+
+            <ul class="contacts-list">
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Email</p>
+
+                        <a href="mailto:mehu2003@gmail.com" class="contact-link" style="font-size: 0.8rem">mehu2003@gmail.com</a>
+                    </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="calendar-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Birthday</p>
+                        <time datetime="1982-06-23">August 2, 2003</time>
+                    </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="location-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Location</p>
+                        <address>Delhi NCR</address>
+                    </div>
+
+                </li>
+
+            </ul>
+
+            <div class="separator"></div>
+
+            <ul class="social-list">
+
+                <li class="social-item">
+                    <a href="https://www.linkedin.com/in/mehul-agarwal-3a879b223/" target="_blank" class="social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+
+                <li class="social-item">
+                    <a href="https://www.github.com/Mehul2044" target="_blank" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+        <!--
+          - #NAVBAR
+        -->
+
+        <nav class="navbar">
+
+            <ul class="navbar-list">
+
+                <li class="navbar-item">
+                    <button class="navbar-link  active" data-nav-link>About</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Resume</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Contact</button>
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <!--
+          - #ABOUT
+        -->
+
+        <article class="about  active" data-page="about">
+
+            <header>
+                <h2 class="h2 article-title">About me</h2>
+            </header>
+
+            <section class="about-text">
+                <p>
+                    I am a dedicated Computer Science student at Indian Institute of Information Technology, SriCity
+                    with a strong academic background and
+                    hands-on experience in software development. Through internships at Coingape and Ihomifi, I have
+                    developed skills in building user-centric applications and integrating cutting-edge technologies. My
+                    expertise includes programming languages like Java, Dart, Javascript as well as tools such as MERN
+                    Stack, Flutter and Firebase.
+                </p>
+
+                <p>
+                    I am passionate about solving complex problems through technology, as demonstrated by my projects.
+                    With a proven ability to quickly learn new technologies and a commitment to continuous improvement,
+                    I aim to contribute meaningfully to the tech industry.
+                </p>
+            </section>
+
+
+            <!--
+              - What I Do
+            -->
+
+            <section class="service">
+
+                <h3 class="h3 service-title">I'm Good at</h3>
+
+                <ul class="service-list">
+
+                    <li class="service-item">
+
+                        <div class="service-icon-box">
+                            <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                        </div>
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Web development</h4>
+
+                            <p class="service-item-text">
+                                High-quality development of sites, proficient in both Frontend and backend technologies.
+                            </p>
+                        </div>
+
+                    </li>
+
+                    <li class="service-item">
+
+                        <div class="service-icon-box">
+                            <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                        </div>
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Mobile Apps</h4>
+
+                            <p class="service-item-text">
+                                Professional development of applications for iOS and Android, using cross-platform
+                                technology developed by Google, Flutter.
+                            </p>
+                        </div>
+
+                    </li>
+
+                    <li class="service-item">
+
+                        <div class="service-icon-box">
+                            <img src="assets/images/cybersecurity_logo.jpeg"
+                                 alt="mobile app icon" width="50">
+                        </div>
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">CyberSecurity</h4>
+
+                            <p class="service-item-text">
+                                I have hands-on experience in cybersecurity through projects and courses. I am well
+                                versed with Computer Networks and Cryptography.
+                            </p>
+                        </div>
+
+                    </li>
+
+                    <li class="service-item">
+
+                        <div class="service-icon-box">
+                            <img src="assets/images/cs_fundamental_logo.jpeg"
+                                 alt="mobile app icon" width="50">
+                        </div>
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">CS Fundamentals</h4>
+
+                            <p class="service-item-text">
+                                I have a strong foundation in Computer Science fundamentals like Data Structures and
+                                Algorithms, Operating Systems, and DBMS.
+                            </p>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </article>
+
+
+        <!--
+          - #RESUME
+        -->
+
+        <article class="resume" data-page="resume">
+
+            <header>
+                <h2 class="h2 article-title" style="margin-bottom: 0">Resume</h2>
+                <a href="https://drive.google.com/file/d/1_IYWnm3vyd41liYF_C4GG_T_FQn7WKQr/view?usp=drive_link"
+                   style="margin-bottom: 1rem; color: blue" target="_blank">Click for Resume Link</a>
+            </header>
+
+            <section class="timeline">
+
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3">Education</h3>
+                </div>
+
+                <ol class="timeline-list">
+
+                    <li class="timeline-item">
+
+                        <h4 class="h4 timeline-item-title">St. Francis School, Indirapuram</h4>
+
+                        <span>2019-2021</span>
+
+                        <p class="timeline-text">
+                            12th Grade - CBSE - 97.2% - Science Stream
+                        </p>
+
+                    </li>
+
+                    <li class="timeline-item">
+
+                        <h4 class="h4 timeline-item-title">Indian Institute of Information Technology, SriCity</h4>
+
+                        <span>2021-205</span>
+
+                        <p class="timeline-text">
+                            B.Tech in Computer Science and Engineering - 9.31 CGPA
+                        </p>
+
+                    </li>
+
+                </ol>
+
+            </section>
+
+            <section class="timeline">
+
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="briefcase-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3">Experience</h3>
+                </div>
+
+                <ol class="timeline-list">
+
+                    <li class="timeline-item">
+
+                        <h4 class="h4 timeline-item-title">Software Developer Intern, Ihomifi</h4>
+
+                        <span>May, 2023 - July, 2023</span>
+
+                        <p class="timeline-text">
+                            During my internship at Ihomifi, I led the implementation of real-time device status
+                            updates, improving user experience by ensuring seamless connectivity between the application
+                            and physical devices through Bluetooth Low Energy (BLE) technology.
+                        </p>
+
+                    </li>
+
+                    <li class="timeline-item">
+
+                        <h4 class="h4 timeline-item-title">Software Developer Inntern, Coingape</h4>
+
+                        <span>June, 2024, August, 2024</span>
+
+                        <p class="timeline-text">
+                            At Coingape, I worked as a Software Developer Intern, where I integrated a Telegram Bot into
+                            the company website to enhance user engagement. This involved leveraging the Telegram user
+                            management API and creating a reward system using TON blockchain currency.
+                        </p>
+
+                    </li>
+
+                </ol>
+
+            </section>
+
+            <section class="skill">
+
+                <h3 class="h3 skills-title">My skills</h3>
+
+                <ul class="skills-list content-card">
+
+                    <li class="skills-item">
+
+                        <div class="title-wrapper">
+                            <h5 class="h5">Web Development</h5>
+                            <data value="90">90%</data>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 90%;"></div>
+                        </div>
+
+                    </li>
+
+                    <li class="skills-item">
+
+                        <div class="title-wrapper">
+                            <h5 class="h5">Mobile Development</h5>
+                            <data value="80">80%</data>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 80%;"></div>
+                        </div>
+
+                    </li>
+
+                    <li class="skills-item">
+
+                        <div class="title-wrapper">
+                            <h5 class="h5">Cybersecurity</h5>
+                            <data value="60">60%</data>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 60%;"></div>
+                        </div>
+
+                    </li>
+
+                    <li class="skills-item">
+
+                        <div class="title-wrapper">
+                            <h5 class="h5">CS Fundamentals (Programming, DBMS, OS)</h5>
+                            <data value="85">85%</data>
+                        </div>
+
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 85%;"></div>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </article>
+
+        <!--
+          - #CONTACT
+        -->
+
+        <article class="contact" data-page="contact">
+
+            <header>
+                <h2 class="h2 article-title">Contact</h2>
+            </header>
+
+            <section class="mapbox" data-mapbox>
+                <figure>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28010.760757740434!2d77.34902638929358!3d28.649384053509447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfabbae31843d%3A0xf5857c74104528f7!2sIndirapuram%2C%20Ghaziabad%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1724669083067!5m2!1sen!2sin"
+                            width="400" height="40" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </figure>
+            </section>
+
+            <section class="contact-form">
+
+                <h3 class="h3 form-title">Contact Form</h3>
+
+                <form action="#" class="form" data-form>
+
+                    <div class="input-wrapper">
+                        <input type="text" name="fullname" class="form-input" placeholder="Full Name" required
+                               data-form-input>
+
+                        <input type="email" name="email" class="form-input" placeholder="Email Address" required
+                               data-form-input>
+                    </div>
+
+                    <textarea name="message" class="form-input" placeholder="Your Message" required
+                              data-form-input></textarea>
+
+                    <button class="form-btn" type="submit" disabled data-form-btn>
+                        <ion-icon name="paper-plane"></ion-icon>
+                        <span>Send Message</span>
+                    </button>
+
+                </form>
+
+            </section>
+
+        </article>
+
+    </div>
+
+</main>
+
+
+<!--
+  - custom js link
+-->
+<script src="./assets/js/script.js"></script>
+
+<!--
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
